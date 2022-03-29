@@ -15,9 +15,23 @@ public class LoginPageTest extends base{
         loginPage=new LoginPage();
     }
     @Test
-    public void validateHomePageTest() throws InterruptedException {
+    public void validateLogo()
+    {
+        loginPage.logoCheck();
+    }
+    @Test
+    public void validateDisplayOfShopByCategorySection()
+    {
+        loginPage.displayOfShopByCategorySection();
+    }
+    @Test
+    public void validateDisplayOfTopBrandsSection()
+    {
+        loginPage.displayOfTopBrandsSection();
+    }
+    @Test
+    public void validateLoginTest() throws InterruptedException {
         loginPage.login(prop.getProperty("mobileNumber"));
-        loginPage.validateHomePageTitle();
     }
     @AfterMethod
     public void tearDown()

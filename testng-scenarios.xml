@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Website Automation Suite">
+<suite name="Scenarios Automation Suite">
     <test name="Website Automation Scenarios">
         <classes>
             <class name="Login_To_PlaceOrderJourney"/>

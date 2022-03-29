@@ -22,8 +22,8 @@ public class Login_To_PlaceOrderJourney extends base{
     @Test
     public void loginToPlaceOrderJourney() throws Exception {
         homePage=loginPage.login(prop.getProperty("mobileNumber"));
-        loginPage.validateHomePageTitle();
-        homePage.changePincode();
+        homePage.homePageTitle();
+        homePage.changePostcode();
         pdpPage=homePage.searchProduct(prop.getProperty("sku"));
         cartPage=pdpPage.addItemToCart();
         addressPage=cartPage.navigateToAddressPage();

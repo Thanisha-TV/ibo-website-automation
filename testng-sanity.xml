@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Automation Suite">
+    <test name="Website Automation Tests">
+        <classes>
+            <class name="LoginPageTest"/>
+            <class name="HomePageTest"/>
+            <class name="PdpPageTest"/>
+            <class name="CartPageTest"/>
+            <class name="AddressPageTest"/>
+            <class name="PaymentPageTest"/>
+        </classes>
+    </test>
+</suite>
