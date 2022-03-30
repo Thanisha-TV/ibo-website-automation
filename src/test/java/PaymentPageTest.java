@@ -25,8 +25,7 @@ public class PaymentPageTest extends base{
         paymentPage=addressPage.navigateToPaymentPage();
     }
     @Test
-    public void validatePaymentOption()
-    {
+    public void validatePaymentOption() throws InterruptedException {
         paymentPage.paymentOption();
     }
     @Test

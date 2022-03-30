@@ -17,8 +17,12 @@ public class HomePage extends base{
     WebElement searchBox;
     @FindBy(xpath = "//img[@alt='Search']")
     WebElement searchIcon;
-    @FindBy(xpath = "//span[text()='DELUCCIO [Pack of 2] Dummy Sub-Class']")
+    @FindBy(xpath = "//span[text()='Orient Bell Equilateral 1 Ceramic Tile']")
     WebElement product;
+    @FindBy(xpath = "//*[@id=\"__next\"]/div/div/div[2]/header[1]/div/div[4]/ul/li[5]/button/span")
+    WebElement myAccountLink;
+    @FindBy(xpath = "//*[@id=\"__next\"]/div/div/div[2]/header[1]/div/div[4]/ul/li[5]/div/div/div[2]/div[2]/a")
+    WebElement profileLink;
     public HomePage()
     {
         PageFactory.initElements(driver,this);
@@ -35,6 +39,13 @@ public class HomePage extends base{
         Thread.sleep(10000);
         String text=postcodeText.getText();
         Assert.assertEquals(text,"560004");
+    }
+    public ProfilePage navigateToProfilePage() throws InterruptedException {
+        myAccountLink.click();
+        profileLink.click();
+        Thread.sleep(10000);
+        return new ProfilePage();
+
     }
     public PdpPage searchProduct(String searchTerm) throws InterruptedException {
         searchBox.sendKeys(searchTerm);

@@ -24,6 +24,10 @@ public class HomePageTest extends base{
     public void validateChangePostcode() throws InterruptedException {
         homePage.changePostcode();
     }
+    @Test
+    public void validateNavigateToProfilePage() throws InterruptedException {
+        homePage.navigateToProfilePage();
+    }
     @Test(dependsOnMethods = "validateChangePostcode")
     public void validateSearchProduct() throws InterruptedException {
         homePage.changePostcode();

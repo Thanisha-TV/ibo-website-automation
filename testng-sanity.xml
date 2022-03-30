@@ -8,6 +8,7 @@
             <class name="CartPageTest"/>
             <class name="AddressPageTest"/>
             <class name="PaymentPageTest"/>
+            <class name="ProfilePageTest"/>
         </classes>
     </test>
 </suite>
