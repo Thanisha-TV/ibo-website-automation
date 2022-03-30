@@ -1,7 +1,11 @@
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(AllureListener.class)
 public class CartPageTest extends base{
     LoginPage loginPage;
     HomePage homePage;
@@ -20,16 +24,19 @@ public class CartPageTest extends base{
         pdpPage=homePage.searchProduct(prop.getProperty("sku"));
         cartPage=pdpPage.addItemToCart();
     }
-    @Test
+    @Test(description = "Validate Total Price in Cart Page")
+    @Severity(SeverityLevel.CRITICAL)
     public void validateTotalPriceCheck()
     {
         cartPage.totalPriceCheck();
     }
-    @Test
+    @Test(description = "Validate Delete item in Cart Page")
+    @Severity(SeverityLevel.CRITICAL)
     public void validateDeleteProduct() throws InterruptedException {
         cartPage.deleteProduct();
     }
-    @Test
+    @Test(description = "Validate navigation from Cart tab to address tab")
+    @Severity(SeverityLevel.CRITICAL)
     public void validateNavigateToAddressPage() throws InterruptedException {
         cartPage.navigateToAddressPage();
     }

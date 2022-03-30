@@ -1,7 +1,9 @@
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(AllureListener.class)
 public class Login_To_PlaceOrderJourney extends base{
     LoginPage loginPage;
     HomePage homePage;
@@ -19,7 +21,7 @@ public class Login_To_PlaceOrderJourney extends base{
         initialization();
         loginPage=new LoginPage();
     }
-    @Test
+    @Test(description = "Login to Place Order Journey")
     public void loginToPlaceOrderJourney() throws Exception {
         homePage=loginPage.login(prop.getProperty("mobileNumber"));
         homePage.homePageTitle();

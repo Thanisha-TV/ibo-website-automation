@@ -1,7 +1,11 @@
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(AllureListener.class)
 public class LoginPageTest extends base{
     LoginPage loginPage;
     public LoginPageTest()
@@ -14,22 +18,27 @@ public class LoginPageTest extends base{
         initialization();
         loginPage=new LoginPage();
     }
-    @Test
+
+    @Test(description = "Validate Logo on Website")
+    @Severity(SeverityLevel.CRITICAL)
     public void validateLogo()
     {
         loginPage.logoCheck();
     }
-    @Test
+    @Test(description = "Validate Display of Shop By Category section")
+    @Severity(SeverityLevel.CRITICAL)
     public void validateDisplayOfShopByCategorySection()
     {
         loginPage.displayOfShopByCategorySection();
     }
-    @Test
+    @Test(description = "Validate Display of Top Brands section")
+    @Severity(SeverityLevel.CRITICAL)
     public void validateDisplayOfTopBrandsSection()
     {
         loginPage.displayOfTopBrandsSection();
     }
-    @Test
+    @Test(description = "Validate Login Test")
+    @Severity(SeverityLevel.BLOCKER)
     public void validateLoginTest() throws InterruptedException {
         loginPage.login(prop.getProperty("mobileNumber"));
     }

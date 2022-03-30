@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Thanishas-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "14521@Thanishas-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Validate Username in Profile Page",
+        "uid" : "69f5b374d0cd2a70",
+        "parentUid" : "dc1611c5c1ee7e4fab581e9e82a03718",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648637037603,
+          "stop" : 1648637037660,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc1611c5c1ee7e4fab581e9e82a03718"
+    } ],
+    "uid" : "63a7346af4507009e652ec5930b53b38"
+  } ]
+}

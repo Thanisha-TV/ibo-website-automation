@@ -1,8 +1,12 @@
 import com.github.dockerjava.core.dockerfile.DockerfileStatement;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(AllureListener.class)
 public class AddressPageTest extends base{
     LoginPage loginPage;
     HomePage homePage;
@@ -23,7 +27,8 @@ public class AddressPageTest extends base{
         cartPage=pdpPage.addItemToCart();
         addressPage=cartPage.navigateToAddressPage();
     }
-    @Test
+    @Test(description = "Validate Navigation from Address tab to Payment tab")
+    @Severity(SeverityLevel.CRITICAL)
     public void validateNavigateToPaymentPage() throws InterruptedException {
         addressPage.navigateToPaymentPage();
     }

@@ -1,7 +1,11 @@
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(AllureListener.class)
 public class PdpPageTest extends base{
     LoginPage loginPage;
     HomePage homePage;
@@ -18,16 +22,19 @@ public class PdpPageTest extends base{
         homePage.changePostcode();
         pdpPage=homePage.searchProduct(prop.getProperty("sku"));
     }
-    @Test
+    @Test(description = "Validate Price Display")
+    @Severity(SeverityLevel.CRITICAL)
     public void validatePriceDisplay()
     {
         pdpPage.priceDisplay();
     }
-    @Test
+    @Test(description = "Validate Update Quantity")
+    @Severity(SeverityLevel.CRITICAL)
     public void validateUpdateQuantity() throws InterruptedException {
         pdpPage.updateQuantity();
     }
-    @Test
+    @Test(description = "Validate Add to Cart")
+    @Severity(SeverityLevel.CRITICAL)
     public void validateAddItemToCart() throws InterruptedException {
         pdpPage.addItemToCart();
     }

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "69f5b374d0cd2a70",
+  "name" : "Validate Username in Profile Page",
+  "time" : {
+    "start" : 1648637037603,
+    "stop" : 1648637037660,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "minor"
+} ]
