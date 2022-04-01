@@ -27,7 +27,7 @@ public class AddressPageTest extends base{
         cartPage=pdpPage.addItemToCart();
         addressPage=cartPage.navigateToAddressPage();
     }
-    @Test(description = "Validate Navigation from Address tab to Payment tab")
+    @Test(description = "AddressPage- Validate Navigation from Address tab to Payment tab")
     @Severity(SeverityLevel.CRITICAL)
     public void validateNavigateToPaymentPage() throws InterruptedException {
         addressPage.navigateToPaymentPage();

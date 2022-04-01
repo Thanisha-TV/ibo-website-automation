@@ -22,18 +22,18 @@ public class PdpPageTest extends base{
         homePage.changePostcode();
         pdpPage=homePage.searchProduct(prop.getProperty("sku"));
     }
-    @Test(description = "Validate Price Display")
+    @Test(description = "PdpPage- Validate Price Display")
     @Severity(SeverityLevel.CRITICAL)
     public void validatePriceDisplay()
     {
         pdpPage.priceDisplay();
     }
-    @Test(description = "Validate Update Quantity")
+    @Test(description = "PdpPage- Validate Update Quantity")
     @Severity(SeverityLevel.CRITICAL)
     public void validateUpdateQuantity() throws InterruptedException {
         pdpPage.updateQuantity();
     }
-    @Test(description = "Validate Add to Cart")
+    @Test(description = "PdpPage- Validate Add to Cart")
     @Severity(SeverityLevel.CRITICAL)
     public void validateAddItemToCart() throws InterruptedException {
         pdpPage.addItemToCart();

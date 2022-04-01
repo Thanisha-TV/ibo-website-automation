@@ -21,7 +21,7 @@ public class ProfilePageTest extends base{
         homePage=loginPage.login(prop.getProperty("mobileNumber"));
         profilePage=homePage.navigateToProfilePage();
     }
-    @Test(description = "Validate Username in Profile Page")
+    @Test(description = "ProfilePage- Validate Username in Profile Page")
     @Severity(SeverityLevel.MINOR)
     public void validateUsernameCheck()
     {

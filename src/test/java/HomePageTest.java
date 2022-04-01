@@ -19,23 +19,23 @@ public class HomePageTest extends base{
         loginPage=new LoginPage();
         homePage=loginPage.login(prop.getProperty("mobileNumber"));
     }
-    @Test(description = "Validate home Page title")
+    @Test(description = "HomePage- Validate home Page title")
     @Severity(SeverityLevel.NORMAL)
     public void validateHomePageTitle()
     {
         homePage.homePageTitle();
     }
-    @Test(description = "Validate change Postcode")
+    @Test(description = "HomePage- Validate change Postcode")
     @Severity(SeverityLevel.CRITICAL)
     public void validateChangePostcode() throws InterruptedException {
         homePage.changePostcode();
     }
-    @Test(description = "Validate Navigation from Home page to Profile Page")
+    @Test(description = "HomePage- Validate Navigation from Home page to Profile Page")
     @Severity(SeverityLevel.MINOR)
     public void validateNavigateToProfilePage() throws InterruptedException {
         homePage.navigateToProfilePage();
     }
-    @Test(dependsOnMethods = "validateChangePostcode",description = "Validate Search Product Scenario")
+    @Test(dependsOnMethods = "HomePage- ValidateChangePostcode",description = "Validate Search Product Scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void validateSearchProduct() throws InterruptedException {
         homePage.changePostcode();

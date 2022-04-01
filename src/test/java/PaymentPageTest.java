@@ -28,12 +28,12 @@ public class PaymentPageTest extends base{
         addressPage=cartPage.navigateToAddressPage();
         paymentPage=addressPage.navigateToPaymentPage();
     }
-    @Test(description = "Validate payment Option")
+    @Test(description = "PaymentPage- Validate payment Option")
     @Severity(SeverityLevel.CRITICAL)
     public void validatePaymentOption() throws InterruptedException {
         paymentPage.paymentOption();
     }
-    @Test(description = "Validate Navigation from Payment Page to Confirmation Page")
+    @Test(description = "PaymentPage- Validate Navigation from Payment Page to Confirmation Page")
     @Severity(SeverityLevel.CRITICAL)
     public void validateNavigateToConfirmationPage() throws InterruptedException {
         paymentPage.navigateToConfirmationPage();

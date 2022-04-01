@@ -19,25 +19,25 @@ public class LoginPageTest extends base{
         loginPage=new LoginPage();
     }
 
-    @Test(description = "Validate Logo on Website")
+    @Test(description = "LoginPage- Validate Logo on Website")
     @Severity(SeverityLevel.CRITICAL)
     public void validateLogo()
     {
         loginPage.logoCheck();
     }
-    @Test(description = "Validate Display of Shop By Category section")
+    @Test(description = "LoginPage- Validate Display of Shop By Category section")
     @Severity(SeverityLevel.CRITICAL)
     public void validateDisplayOfShopByCategorySection()
     {
         loginPage.displayOfShopByCategorySection();
     }
-    @Test(description = "Validate Display of Top Brands section")
+    @Test(description = "LoginPage- Validate Display of Top Brands section")
     @Severity(SeverityLevel.CRITICAL)
     public void validateDisplayOfTopBrandsSection()
     {
         loginPage.displayOfTopBrandsSection();
     }
-    @Test(description = "Validate Login Test")
+    @Test(description = "LoginPage- Validate Login Test")
     @Severity(SeverityLevel.BLOCKER)
     public void validateLoginTest() throws InterruptedException {
         loginPage.login(prop.getProperty("mobileNumber"));

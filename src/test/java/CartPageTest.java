@@ -24,18 +24,18 @@ public class CartPageTest extends base{
         pdpPage=homePage.searchProduct(prop.getProperty("sku"));
         cartPage=pdpPage.addItemToCart();
     }
-    @Test(description = "Validate Total Price in Cart Page")
+    @Test(description = "CartPage- Validate Total Price in Cart Page")
     @Severity(SeverityLevel.CRITICAL)
     public void validateTotalPriceCheck()
     {
         cartPage.totalPriceCheck();
     }
-    @Test(description = "Validate Delete item in Cart Page")
+    @Test(description = "CartPage- Validate Delete item in Cart Page")
     @Severity(SeverityLevel.CRITICAL)
     public void validateDeleteProduct() throws InterruptedException {
         cartPage.deleteProduct();
     }
-    @Test(description = "Validate navigation from Cart tab to address tab")
+    @Test(description = "CartPage- Validate navigation from Cart tab to address tab")
     @Severity(SeverityLevel.CRITICAL)
     public void validateNavigateToAddressPage() throws InterruptedException {
         cartPage.navigateToAddressPage();
