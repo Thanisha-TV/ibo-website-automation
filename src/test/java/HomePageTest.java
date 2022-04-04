@@ -35,7 +35,7 @@ public class HomePageTest extends base{
     public void validateNavigateToProfilePage() throws InterruptedException {
         homePage.navigateToProfilePage();
     }
-    @Test(dependsOnMethods = "HomePage- ValidateChangePostcode",description = "Validate Search Product Scenario")
+    @Test(dependsOnMethods = "validateChangePostcode",description = "HomePage- Validate Search Product Scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void validateSearchProduct() throws InterruptedException {
         homePage.changePostcode();
