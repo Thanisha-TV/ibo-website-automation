@@ -57,7 +57,7 @@ public class CommandCenter extends base{
          advanceAdditionToWallet.click();
          customerId.sendKeys(cusId);
          confirmCustomerId.sendKeys(cusId);
-         amount.sendKeys("1");
+         amount.sendKeys("5000");
          Thread.sleep(5000);
          reasonDropdown.click();
          advanceText.click();

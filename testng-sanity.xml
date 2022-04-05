@@ -10,6 +10,8 @@
             <class name="PaymentPageTest"/>
             <class name="ProfilePageTest"/>
             <class name="CommandCenterTest"/>
+            <class name="OrdersPageTest"/>
+            <class name="ConfirmationPageTest"/>
         </classes>
     </test>
 </suite>

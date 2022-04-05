@@ -14,26 +14,43 @@ public class PaymentPage extends base{
     WebElement payOnDeliveryText;
     @FindBy(xpath = "//*[@id=\"PAY-ON-DELIVERY\"]")
     WebElement payOnDeliveryRadioButton;
+    @FindBy(id = "wallet")
+    WebElement walletCheckbox;
+    @FindBy(id = "NET-BANKING")
+    WebElement netBankingRadioButton;
     public PaymentPage()
     {
         PageFactory.initElements(driver,this);
     }
     public void paymentOption() throws InterruptedException {
+        walletCheckbox.click();
         bankDepositRadioButton.click();
         Thread.sleep(10000);
         Assert.assertTrue(bankDepositRadioButton.isSelected());
         Assert.assertEquals(bankDepositText.getText(),"Bank Deposit");
     }
-    public void navigateToConfirmationPage(String paymentMethod) throws InterruptedException {
+    public ConfirmationPage navigateToConfirmationPage(String paymentMethod) throws InterruptedException {
+        if(paymentMethod.equalsIgnoreCase("WALLET"))
+        {
+            Assert.assertTrue(walletCheckbox.isSelected());
+        }
         if(paymentMethod.equalsIgnoreCase("BANK DEPOSIT")) {
+            walletCheckbox.click();
             bankDepositRadioButton.click();
         }
         if(paymentMethod.equalsIgnoreCase("PAY ON DELIVERY"))
         {
+            walletCheckbox.click();
             payOnDeliveryRadioButton.click();
+        }
+        if(paymentMethod.equalsIgnoreCase("NET BANKING"))
+        {
+            walletCheckbox.click();
+            netBankingRadioButton.click();
         }
         Thread.sleep(10000);
         proceedButton.click();
         Thread.sleep(10000);
+        return new ConfirmationPage();
     }
 }

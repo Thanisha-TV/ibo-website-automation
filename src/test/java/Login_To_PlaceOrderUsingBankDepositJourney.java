@@ -21,7 +21,7 @@ public class Login_To_PlaceOrderUsingBankDepositJourney extends base{
         initialization("Website");
         loginPage=new LoginPage();
     }
-    @Test(description = "Login to Place Order Journey")
+    @Test(description = "Login to Place Order Using Bank Deposit Journey")
     public void loginToPlaceOrderJourney() throws Exception {
         homePage=loginPage.login(prop.getProperty("mobileNumber"));
         homePage.homePageTitle();

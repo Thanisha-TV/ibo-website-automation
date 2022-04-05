@@ -4,14 +4,16 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(AllureListener.class)
-public class Login_To_PlaceOrderUsingPayOnDeliveryJourney extends base{
+public class Login_To_PlaceOrderUsingNetBanking extends base{
     LoginPage loginPage;
     HomePage homePage;
     PdpPage pdpPage;
     CartPage cartPage;
     AddressPage addressPage;
     PaymentPage paymentPage;
-    public Login_To_PlaceOrderUsingPayOnDeliveryJourney()
+    ConfirmationPage confirmationPage;
+    CCAvenuePage ccAvenuePage;
+    public Login_To_PlaceOrderUsingNetBanking()
     {
         super();
     }
@@ -20,8 +22,9 @@ public class Login_To_PlaceOrderUsingPayOnDeliveryJourney extends base{
     {
         initialization("Website");
         loginPage=new LoginPage();
+        ccAvenuePage=new CCAvenuePage();
     }
-    @Test(description = "Login to Place Order Using Pay On Delivery Journey")
+    @Test(description = "Login to Place Order Using Net Banking Journey")
     public void loginToPlaceOrderJourney() throws Exception {
         homePage=loginPage.login(prop.getProperty("mobileNumber"));
         homePage.homePageTitle();
@@ -30,7 +33,8 @@ public class Login_To_PlaceOrderUsingPayOnDeliveryJourney extends base{
         cartPage=pdpPage.addItemToCart();
         addressPage=cartPage.navigateToAddressPage();
         paymentPage=addressPage.navigateToPaymentPage();
-        paymentPage.navigateToConfirmationPage("PAY ON DELIVERY");
+        paymentPage.navigateToConfirmationPage("NET BANKING");
+        confirmationPage=ccAvenuePage.paymentProcess();
     }
     @AfterMethod
     public void tearDown()
@@ -39,4 +43,3 @@ public class Login_To_PlaceOrderUsingPayOnDeliveryJourney extends base{
     }
 
 }
-

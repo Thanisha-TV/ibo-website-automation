@@ -23,6 +23,8 @@ public class HomePage extends base{
     WebElement myAccountLink;
     @FindBy(xpath = "//*[@id=\"__next\"]/div/div/div[2]/header[1]/div/div[4]/ul/li[5]/div/div/div[2]/div[2]/a")
     WebElement profileLink;
+    @FindBy(xpath = "//span[text()='Orders']")
+    WebElement ordersLink;
     public HomePage()
     {
         PageFactory.initElements(driver,this);
@@ -46,6 +48,12 @@ public class HomePage extends base{
         Thread.sleep(10000);
         return new ProfilePage();
 
+    }
+    public OrdersPage navigateToOrderPage() throws InterruptedException {
+        myAccountLink.click();
+        ordersLink.click();
+        Thread.sleep(10000);
+        return new OrdersPage();
     }
     public PdpPage searchProduct(String searchTerm) throws InterruptedException {
         searchBox.sendKeys(searchTerm);

@@ -1,42 +1,43 @@
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(AllureListener.class)
-public class Login_To_PlaceOrderUsingPayOnDeliveryJourney extends base{
+public class ConfirmationPageTest extends base{
     LoginPage loginPage;
     HomePage homePage;
     PdpPage pdpPage;
     CartPage cartPage;
     AddressPage addressPage;
     PaymentPage paymentPage;
-    public Login_To_PlaceOrderUsingPayOnDeliveryJourney()
+    ConfirmationPage confirmationPage;
+    public ConfirmationPageTest()
     {
         super();
     }
     @BeforeMethod
-    public void setUp()
-    {
+    public void setUp() throws InterruptedException {
         initialization("Website");
         loginPage=new LoginPage();
-    }
-    @Test(description = "Login to Place Order Using Pay On Delivery Journey")
-    public void loginToPlaceOrderJourney() throws Exception {
         homePage=loginPage.login(prop.getProperty("mobileNumber"));
-        homePage.homePageTitle();
         homePage.changePostcode();
         pdpPage=homePage.searchProduct(prop.getProperty("sku"));
         cartPage=pdpPage.addItemToCart();
         addressPage=cartPage.navigateToAddressPage();
         paymentPage=addressPage.navigateToPaymentPage();
-        paymentPage.navigateToConfirmationPage("PAY ON DELIVERY");
+        confirmationPage=paymentPage.navigateToConfirmationPage("PAY ON DELIVERY");
+    }
+    @Test(description = "ConfirmationPage- Validate Navigation from Confirmation Page to Home Page")
+    @Severity(SeverityLevel.CRITICAL)
+    public void validateNavigateToHomePage() throws InterruptedException {
+        homePage=confirmationPage.navigateToHomePage();
     }
     @AfterMethod
     public void tearDown()
     {
         driver.close();
     }
-
 }
-
