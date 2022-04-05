@@ -2,7 +2,9 @@
 <suite name="Scenarios Automation Suite">
     <test name="Website Automation Scenarios">
         <classes>
-            <class name="Login_To_PlaceOrderJourney"/>
+            <class name="Login_To_PlaceOrderUsingBankDepositJourney"/>
+            <class name="Login_To_PlaceOrderUsingPayOnDeliveryJourney"/>
+            <class name="Login_To_PlaceOrderUsingWalletJourney"/>
         </classes>
     </test>
 </suite>

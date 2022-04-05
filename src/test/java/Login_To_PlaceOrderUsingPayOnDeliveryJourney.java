@@ -4,21 +4,21 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(AllureListener.class)
-public class Login_To_PlaceOrderJourney extends base{
+public class Login_To_PlaceOrderUsingPayOnDeliveryJourney extends base{
     LoginPage loginPage;
     HomePage homePage;
     PdpPage pdpPage;
     CartPage cartPage;
     AddressPage addressPage;
     PaymentPage paymentPage;
-    public Login_To_PlaceOrderJourney()
+    public Login_To_PlaceOrderUsingPayOnDeliveryJourney()
     {
         super();
     }
     @BeforeMethod
     public void setUp()
     {
-        initialization();
+        initialization("Website");
         loginPage=new LoginPage();
     }
     @Test(description = "Login to Place Order Journey")
@@ -30,7 +30,7 @@ public class Login_To_PlaceOrderJourney extends base{
         cartPage=pdpPage.addItemToCart();
         addressPage=cartPage.navigateToAddressPage();
         paymentPage=addressPage.navigateToPaymentPage();
-        paymentPage.navigateToConfirmationPage();
+        paymentPage.navigateToConfirmationPage("PAY ON DELIVERY");
     }
     @AfterMethod
     public void tearDown()
@@ -39,3 +39,4 @@ public class Login_To_PlaceOrderJourney extends base{
     }
 
 }
+

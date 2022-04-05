@@ -21,7 +21,7 @@ public class base {
             e.printStackTrace();
         }
     }
-    public void initialization(){
+    public void initialization(String reqUrl){
         /*System.setProperty("webdriver.chrome.driver","//Users//thanisha//Documents//chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -40,7 +40,10 @@ public class base {
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         driver.manage().window().maximize();
-        driver.get(prop.getProperty("url"));
+        if(reqUrl.equalsIgnoreCase("Website"))
+            driver.get(prop.getProperty("url"));
+        if(reqUrl.equalsIgnoreCase("Command Center"))
+            driver.get(prop.getProperty("commandCenterUrl"));
     }
 
 

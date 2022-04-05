@@ -9,6 +9,7 @@
             <class name="AddressPageTest"/>
             <class name="PaymentPageTest"/>
             <class name="ProfilePageTest"/>
+            <class name="CommandCenterTest"/>
         </classes>
     </test>
 </suite>

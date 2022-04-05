@@ -15,7 +15,7 @@ public class LoginPageTest extends base{
     @BeforeMethod
     public void setUp()
     {
-        initialization();
+        initialization("Website");
         loginPage=new LoginPage();
     }
 

@@ -15,7 +15,7 @@ public class HomePageTest extends base{
     }
     @BeforeMethod
     public void setUp() throws InterruptedException {
-        initialization();
+        initialization("Website");
         loginPage=new LoginPage();
         homePage=loginPage.login(prop.getProperty("mobileNumber"));
     }

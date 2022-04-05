@@ -10,6 +10,10 @@ public class PaymentPage extends base{
     WebElement bankDepositRadioButton;
     @FindBy(xpath = "//span[text()='Bank Deposit']")
     WebElement bankDepositText;
+    @FindBy(xpath = "//span[text()='Pay on Delivery']")
+    WebElement payOnDeliveryText;
+    @FindBy(xpath = "//*[@id=\"PAY-ON-DELIVERY\"]")
+    WebElement payOnDeliveryRadioButton;
     public PaymentPage()
     {
         PageFactory.initElements(driver,this);
@@ -20,8 +24,14 @@ public class PaymentPage extends base{
         Assert.assertTrue(bankDepositRadioButton.isSelected());
         Assert.assertEquals(bankDepositText.getText(),"Bank Deposit");
     }
-    public void navigateToConfirmationPage() throws InterruptedException {
-        bankDepositRadioButton.click();
+    public void navigateToConfirmationPage(String paymentMethod) throws InterruptedException {
+        if(paymentMethod.equalsIgnoreCase("BANK DEPOSIT")) {
+            bankDepositRadioButton.click();
+        }
+        if(paymentMethod.equalsIgnoreCase("PAY ON DELIVERY"))
+        {
+            payOnDeliveryRadioButton.click();
+        }
         Thread.sleep(10000);
         proceedButton.click();
         Thread.sleep(10000);
