@@ -1,0 +1,14 @@
+Login_To_PlaceOrderUsingBankDepositJourney.class
+Login_To_PlaceOrderUsingNetBanking.class
+CartPageTest.class
+OrdersPageTest.class
+PdpPageTest.class
+Login_To_PlaceOrderUsingWalletJourney.class
+ProfilePageTest.class
+HomePageTest.class
+AddressPageTest.class
+PaymentPageTest.class
+CommandCenterTest.class
+ConfirmationPageTest.class
+Login_To_PlaceOrderUsingPayOnDeliveryJourney.class
+LoginPageTest.class

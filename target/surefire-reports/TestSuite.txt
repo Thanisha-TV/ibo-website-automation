@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 8, Errors: 0, Skipped: 2, Time elapsed: 1,569.13 s <<< FAILURE! - in TestSuite
+validateNavigateToConfirmationPage(PaymentPageTest)  Time elapsed: 3.345 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6be854a716af1c5bc4fd52501380daa8, findElement {using=id, value=wallet}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49334/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be854a716af1c5bc4fd52501380daa8
+	at PaymentPageTest.validateNavigateToConfirmationPage(PaymentPageTest.java:39)
+
+validatePaymentOption(PaymentPageTest)  Time elapsed: 3.325 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d34da0408e7bc463631d6b94da240d5, findElement {using=id, value=wallet}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49366/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d34da0408e7bc463631d6b94da240d5
+	at PaymentPageTest.validatePaymentOption(PaymentPageTest.java:34)
+
+addMoneyToWallet(CommandCenterTest)  Time elapsed: 8.288 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='basic_username']"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bb93eb373479306e6ef7101aa9ab4c5, findElement {using=xpath, value=//input[@id='basic_username']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49393/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bb93eb373479306e6ef7101aa9ab4c5
+	at CommandCenterTest.addMoneyToWallet(CommandCenterTest.java:25)
+
+loginToPlaceOrderJourney(Login_To_PlaceOrderUsingBankDepositJourney)  Time elapsed: 54.613 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Add to cart']"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c76279f276df1ca3243442fa8554b80, findElement {using=xpath, value=//span[text()='Add to cart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49497/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c76279f276df1ca3243442fa8554b80
+	at Login_To_PlaceOrderUsingBankDepositJourney.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingBankDepositJourney.java:31)
+
+loginToPlaceOrderJourney(Login_To_PlaceOrderUsingWalletJourney)  Time elapsed: 94.658 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2bc2635cc838dfac93a54386410e815d, findElement {using=id, value=wallet}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49549/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bc2635cc838dfac93a54386410e815d
+	at Login_To_PlaceOrderUsingWalletJourney.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingWalletJourney.java:35)
+
+setUp(ConfirmationPageTest)  Time elapsed: 194.831 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [841dd5a4987eb50804fdb32426cc20dc, findElement {using=id, value=wallet}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49582/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 841dd5a4987eb50804fdb32426cc20dc
+	at ConfirmationPageTest.setUp(ConfirmationPageTest.java:31)
+
+loginToPlaceOrderJourney(Login_To_PlaceOrderUsingPayOnDeliveryJourney)  Time elapsed: 94.854 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [942db4b796d97531d27100efd5a0d1a2, findElement {using=id, value=wallet}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49607/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 942db4b796d97531d27100efd5a0d1a2
+	at Login_To_PlaceOrderUsingPayOnDeliveryJourney.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingPayOnDeliveryJourney.java:34)
+
+loginToPlaceOrderJourney(Login_To_PlaceOrderUsingNetBanking)  Time elapsed: 94.833 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36a39ed64f61bd1b2240a04d39dcce12, findElement {using=id, value=wallet}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49790/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 36a39ed64f61bd1b2240a04d39dcce12
+	at Login_To_PlaceOrderUsingNetBanking.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingNetBanking.java:36)
+
