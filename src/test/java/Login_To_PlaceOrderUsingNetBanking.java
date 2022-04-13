@@ -20,7 +20,7 @@ public class Login_To_PlaceOrderUsingNetBanking extends base{
     @BeforeMethod
     public void setUp()
     {
-        initialization("Website");
+        initialization(prop.getProperty("browser"), "Website");
         loginPage=new LoginPage();
         ccAvenuePage=new CCAvenuePage();
     }
@@ -35,11 +35,12 @@ public class Login_To_PlaceOrderUsingNetBanking extends base{
         paymentPage=addressPage.navigateToPaymentPage();
         paymentPage.navigateToConfirmationPage("NET BANKING");
         confirmationPage=ccAvenuePage.paymentProcess();
+        homePage=confirmationPage.navigateToHomePage();
     }
     @AfterMethod
     public void tearDown()
     {
-        driver.close();
+        driver.quit();
     }
 
 }

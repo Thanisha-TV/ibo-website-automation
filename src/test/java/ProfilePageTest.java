@@ -16,7 +16,7 @@ public class ProfilePageTest extends base{
     }
     @BeforeMethod
     public void setUp() throws InterruptedException {
-        initialization("Website");
+        initialization(prop.getProperty("browser"), "Website");
         loginPage=new LoginPage();
         homePage=loginPage.login(prop.getProperty("mobileNumber"));
         profilePage=homePage.navigateToProfilePage();
@@ -30,6 +30,6 @@ public class ProfilePageTest extends base{
     @AfterMethod
     public void tearDown()
     {
-        driver.close();
+        driver.quit();
     }
 }

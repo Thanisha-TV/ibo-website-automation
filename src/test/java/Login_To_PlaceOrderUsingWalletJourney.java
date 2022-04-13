@@ -20,7 +20,7 @@ public class Login_To_PlaceOrderUsingWalletJourney extends base{
     @BeforeMethod
     public void setUp()
     {
-        initialization("Website");
+        initialization(prop.getProperty("browser"), "Website");
         loginPage=new LoginPage();
     }
     @Test(description = "Login to Place Order Using Wallet Journey")
@@ -40,7 +40,7 @@ public class Login_To_PlaceOrderUsingWalletJourney extends base{
     @AfterMethod
     public void tearDown()
     {
-        driver.close();
+        driver.quit();
     }
 
 }

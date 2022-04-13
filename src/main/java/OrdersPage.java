@@ -8,9 +8,9 @@ public class OrdersPage extends base{
     WebElement orderText;
     @FindBy(xpath = "//*[@id=\"__next\"]/div/div[2]/div/main/ul/li[1]/div/div[2]/div/span/img")
     WebElement orderDetailsLink;
-    @FindBy(xpath = "//*[@id=\"__next\"]/div/main/div/div[2]/div/div[1]/div[5]/div[1]")
+    @FindBy(xpath = "//*[@id=\"__next\"]/div/main/div/aside/div/div/div[1]/div[5]/div[1]")
     WebElement paidByIBOWalletText;
-    @FindBy(xpath = "//*[@id=\"__next\"]/div/main/div/div[2]/div/div[1]/div[5]/div[2]")
+    @FindBy(xpath = "//*[@id=\"__next\"]/div/main/div/aside/div/div/div[1]/div[5]/div[2]")
     WebElement walletTotalPrice;
     @FindBy(xpath = "//*[@id=\"__next\"]/div/main/div/div[1]/div[2]/div[1]/div[4]/div/span[2]")
     WebElement totalPrice;

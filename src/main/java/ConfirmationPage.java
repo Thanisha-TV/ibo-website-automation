@@ -13,6 +13,7 @@ public class ConfirmationPage extends base{
         PageFactory.initElements(driver,this);
     }
     public HomePage navigateToHomePage() throws InterruptedException {
+        Thread.sleep(5000);
         orderNum=orderNumber.getText();
         continueShoppingButton.click();
         Thread.sleep(5000);

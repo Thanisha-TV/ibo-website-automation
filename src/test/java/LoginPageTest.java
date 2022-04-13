@@ -15,7 +15,7 @@ public class LoginPageTest extends base{
     @BeforeMethod
     public void setUp()
     {
-        initialization("Website");
+        initialization(prop.getProperty("browser"), "Website");
         loginPage=new LoginPage();
     }
 
@@ -45,6 +45,6 @@ public class LoginPageTest extends base{
     @AfterMethod
     public void tearDown()
     {
-        driver.close();
+        driver.quit();
     }
 }

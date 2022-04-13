@@ -15,7 +15,7 @@ public class CommandCenterTest extends base{
     @BeforeMethod
     public void setUp()
     {
-        initialization("Command Center");
+        initialization(prop.getProperty("browser"),"Command Center");
         commandCenter=new CommandCenter();
     }
     @Test(description = "Validate Add Money To Wallet")
@@ -27,6 +27,6 @@ public class CommandCenterTest extends base{
     @AfterMethod
     public void tearDown()
     {
-        driver.close();
+        driver.quit();
     }
 }

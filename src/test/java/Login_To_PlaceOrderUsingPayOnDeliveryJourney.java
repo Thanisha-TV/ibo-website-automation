@@ -11,6 +11,7 @@ public class Login_To_PlaceOrderUsingPayOnDeliveryJourney extends base{
     CartPage cartPage;
     AddressPage addressPage;
     PaymentPage paymentPage;
+    ConfirmationPage confirmationPage;
     public Login_To_PlaceOrderUsingPayOnDeliveryJourney()
     {
         super();
@@ -18,7 +19,7 @@ public class Login_To_PlaceOrderUsingPayOnDeliveryJourney extends base{
     @BeforeMethod
     public void setUp()
     {
-        initialization("Website");
+        initialization(prop.getProperty("browser"), "Website");
         loginPage=new LoginPage();
     }
     @Test(description = "Login to Place Order Using Pay On Delivery Journey")
@@ -30,12 +31,13 @@ public class Login_To_PlaceOrderUsingPayOnDeliveryJourney extends base{
         cartPage=pdpPage.addItemToCart();
         addressPage=cartPage.navigateToAddressPage();
         paymentPage=addressPage.navigateToPaymentPage();
-        paymentPage.navigateToConfirmationPage("PAY ON DELIVERY");
+        confirmationPage=paymentPage.navigateToConfirmationPage("PAY ON DELIVERY");
+        homePage=confirmationPage.navigateToHomePage();
     }
     @AfterMethod
     public void tearDown()
     {
-        driver.close();
+        driver.quit();
     }
 
 }
