@@ -1,0 +1,117 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az206-158",
+    "children" : [ {
+      "name" : "3052@fv-az206-158.main(1)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "33072637c77882a4",
+        "parentUid" : "933030eadde2a76736df87140b9dda4b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652986581993,
+          "stop" : 1652986581994,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Place Order Using Net Banking Journey",
+        "uid" : "7ab608f3cd2d3157",
+        "parentUid" : "933030eadde2a76736df87140b9dda4b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1652986581995,
+          "stop" : 1652986581996,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "cb75d96316623f72",
+        "parentUid" : "933030eadde2a76736df87140b9dda4b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652986581267,
+          "stop" : 1652986581268,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Place Order Using Pay On Delivery Journey",
+        "uid" : "59ca1a59cae36ce1",
+        "parentUid" : "933030eadde2a76736df87140b9dda4b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1652986581272,
+          "stop" : 1652986581277,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "c9b09f5d13b1c5f0",
+        "parentUid" : "933030eadde2a76736df87140b9dda4b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652986580826,
+          "stop" : 1652986580828,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "2dab8d092ebd5706",
+        "parentUid" : "933030eadde2a76736df87140b9dda4b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652986581653,
+          "stop" : 1652986581653,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Place Order Using Wallet Journey",
+        "uid" : "92190fe00a07be7d",
+        "parentUid" : "933030eadde2a76736df87140b9dda4b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1652986581656,
+          "stop" : 1652986581656,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Place Order Using Bank Deposit Journey",
+        "uid" : "894c3b3dc75612df",
+        "parentUid" : "933030eadde2a76736df87140b9dda4b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1652986580847,
+          "stop" : 1652986580849,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "933030eadde2a76736df87140b9dda4b"
+    } ],
+    "uid" : "04c7448b2f7f43dc87cc5d7a5dcbca6e"
+  } ],
+  "name" : "timeline"
+}
