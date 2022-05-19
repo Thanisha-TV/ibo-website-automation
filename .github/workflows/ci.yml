@@ -1,0 +1,140 @@
+name: CI
+#on: push
+on:
+  workflow_dispatch:
+   inputs:
+      testgroup:
+        description: 'IBO Website CI/CD'
+        default: 'sanitytest'
+        required: true
+
+  schedule:
+    # Runs "everyday at 11 AM IST ( 5:30 UTC timezone)" (see https://crontab.guru)
+    - cron: '30 5 * * *'
+    
+jobs:
+  tests:
+    runs-on: k8s
+    steps:
+      # Checkout the Repo
+      - uses: actions/checkout@v2
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+          server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
+          settings-path: ${{ github.workspace }} # location for the settings.xml file
+          
+      - name: suiteXmlFile name
+        run: echo "${{ github.event.inputs.suiteXmlFile }}"
+
+      - name: Build project with Maven
+        run: mvn -B package --file pom.xml
+        
+
+      - name: Mvn test with no scheduler
+        if: ${{ github.event_name != 'schedule' }}
+        run: mvn test -Dsurefire.suiteXmlFiles=${{ inputs.suiteXmlFile }}
+        with:
+          ENV_Name: staging
+          Microservice_name: ${{ github.event.inputs.suiteXmlFile }}
+      
+      - name: Run on schedule event
+        if: ${{ github.event_name == 'schedule' }}
+        uses: ebomart/npm-test-action@main
+        with:
+          ENV_Name: staging
+          Microservice_name: sanitytest
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@4cf605e31141e43479bff86bc4e3a5b642bedaa3
+        if: always()
+        #id: allure-report
+        with:
+          allure_results: allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+        
+        
+      - name: Automation Result URL
+        run: echo "http://swagger.ibo.com/ibo-bff-automation/${GITHUB_RUN_NUMBER}"
+        
+
+      - name: Send email
+        uses: devellany/send-mail@v1.0.2
+        with:
+          host: in-v3.mailjet.com
+          # Optional port (defaults to 465)
+          port: 587
+          account: ${{secrets.MAIL_USERNAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          sender: IBO
+          from: systemadmin@ibo.com
+          to: kunalj@testvagrant.com,ankur.agarwal@ebo.com
+          subject: Result - Bff Automation Run
+          body: Build job of ${{github.repository}} completed successfully! , report link http://swagger.ibo.com/ibo-bff-automation/
+          # Optional content type (defaults to text/plain)
+          contentType: text/plain
+          # Optional attachment files (JSON type. require property 'path')
+          attachments: '[{"path":"README.md"}]'
+
+
+
+      # - name: Send mail
+      #   uses: dawidd6/action-send-mail@v3
+      #   with:
+      #     # Required mail server address:
+      #     server_address: in-v3.mailjet.com
+      #     # Required mail server port:
+      #     server_port: 587
+      #     # Optional (recommended): mail server username:
+      #     username: ${{secrets.MAIL_USERNAME}}
+      #     # Optional (recommended) mail server password:
+      #     password: ${{secrets.MAIL_PASSWORD}}
+      #     # Required mail subject:
+      #     subject: Github Actions job result
+      #     # Required recipients' addresses:
+      #     to: pankaj.h@cloverbaytechnologies.com
+      #     # Required sender full name (address can be skipped):
+      #     from: systemadmin
+      #     # Optional whether this connection use TLS (default is true if server_port is 465)
+      #     secure: false
+      #     # Optional plain body:
+      #     body: Build job of ${{github.repository}} completed successfully! , report link http://swagger.ibo.com/ibo-bff-automation/
+      #     # Optional HTML body read from file:
+      #     # html_body: file://allure-report/index.html
+      #     # Optional carbon copy recipients:
+      #     # cc: kyloren@example.com,leia@example.com
+      #     # # Optional blind carbon copy recipients:
+      #     # bcc: r2d2@example.com,hansolo@example.com
+      #     # # Optional recipient of the email response:
+      #     # reply_to: luke@example.com
+      #     # # Optional Message ID this message is replying to:
+      #     # in_reply_to: <random-luke@example.com>
+      #     # Optional unsigned/invalid certificates allowance:
+      #     ignore_cert: true
+      #     # Optional converting Markdown to HTML (set content_type to text/html too):
+      #     convert_markdown: true
+      #     # # Optional attachments:
+      #     # attachments: ./allure-report/*.js
+      #     # # Optional priority: 'high', 'normal' (default) or 'low'
+      #     priority: low 
