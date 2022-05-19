@@ -35,10 +35,7 @@ jobs:
 
       - name: Mvn test with no scheduler
         if: ${{ github.event_name != 'schedule' }}
-        run: mvn test -Dsurefire.suiteXmlFiles=src/main/resources/${{ inputs.suiteXmlFile }}
-        with:
-          ENV_Name: staging
-          Microservice_name: ${{ github.event.inputs.suiteXmlFile }}
+        run: mvn test -Dsurefire.suiteXmlFiles=src/main/resources/${{ github.event.inputs.suiteXmlFile }}
       
       - name: Run on schedule event
         if: ${{ github.event_name == 'schedule' }}
