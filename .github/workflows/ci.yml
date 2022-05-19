@@ -5,7 +5,7 @@ on:
    inputs:
       testgroup:
         description: 'IBO Website CI/CD'
-        default: 'sanitytest'
+        default: 'testng-scenarios.xml'
         required: true
 
   schedule:
@@ -35,7 +35,7 @@ jobs:
 
       - name: Mvn test with no scheduler
         if: ${{ github.event_name != 'schedule' }}
-        run: mvn test -Dsurefire.suiteXmlFiles=${{ inputs.suiteXmlFile }}
+        run: mvn test -Dsurefire.suiteXmlFiles=src/main/resources/${{ inputs.suiteXmlFile }}
         with:
           ENV_Name: staging
           Microservice_name: ${{ github.event.inputs.suiteXmlFile }}
@@ -45,7 +45,7 @@ jobs:
         uses: ebomart/npm-test-action@main
         with:
           ENV_Name: staging
-          Microservice_name: sanitytest
+          Microservice_name: testng-scenarios.xml
 
       - name: Get Allure history
         uses: actions/checkout@v2
