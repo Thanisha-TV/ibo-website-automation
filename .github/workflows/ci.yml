@@ -14,7 +14,7 @@ on:
     
 jobs:
   tests:
-    runs-on: k8s
+    runs-on: ubuntu-latest
     steps:
       # Checkout the Repo
       - uses: actions/checkout@v2
