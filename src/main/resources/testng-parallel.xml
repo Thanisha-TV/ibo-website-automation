@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Sanity Automation Suite">
-    <test name="Website Automation Tests">
+<suite name = "Parallel Testing Suite">
+    <test name = "Parallel Tests" parallel = "classes" thread-count = "1">
         <classes>
             <class name="LoginPageTest"/>
             <class name="HomePageTest"/>
