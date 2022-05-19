@@ -25,6 +25,7 @@ public class PdpPage extends base{
     }
     public void updateQuantity() throws InterruptedException {
         Util.scrollTillElement(plusSign);
+        Thread.sleep(10000);
         plusSign.click();
         Thread.sleep(10000);
         String productQuantity=quantity.getAttribute("value");

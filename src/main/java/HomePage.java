@@ -17,7 +17,7 @@ public class HomePage extends base{
     WebElement searchBox;
     @FindBy(xpath = "//img[@alt='Search']")
     WebElement searchIcon;
-    @FindBy(xpath = "//span[text()='Cera Lucido Alexandra 600 mm x 600 mm Vitrified - GVT Tile']")
+    @FindBy(xpath = "//span[text()='Orient Bell Equilateral 1 Ceramic Tile']")
     WebElement product;
     @FindBy(xpath = "//*[@id=\"__next\"]/div/div/div[2]/header[1]/div/div[4]/ul/li[5]/button/span")
     WebElement myAccountLink;

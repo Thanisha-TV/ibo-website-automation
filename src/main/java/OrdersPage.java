@@ -28,7 +28,7 @@ public class OrdersPage extends base{
         Assert.assertEquals(text,"Paid by IBO Wallet");
         Thread.sleep(5000);
         String price=walletTotalPrice.getText();
-        Assert.assertEquals(price,"₹ 1,002");
+        Assert.assertEquals(price,"₹515");
         Thread.sleep(5000);
     }
     public void orderDetails() throws InterruptedException {
