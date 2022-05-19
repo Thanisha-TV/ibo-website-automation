@@ -1,0 +1,22 @@
+{
+  "a7f4ae868910714a50dfca0e794e12b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da2128f50d316336",
+      "reportUrl" : "https://Thanisha-TV.github.io/ibo-website-automation/3//#testresult/da2128f50d316336",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648638075975,
+        "stop" : 1648638076017,
+        "duration" : 42
+      }
+    } ]
+  }
+}
