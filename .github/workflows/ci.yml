@@ -83,7 +83,7 @@ jobs:
           password: ${{secrets.MAIL_PASSWORD}}
           sender: IBO
           from: systemadmin@ibo.com
-          to: kunalj@testvagrant.com,ankur.agarwal@ebo.com
+          to: kunalj@testvagrant.com
           subject: Result - Bff Automation Run
           body: Build job of ${{github.repository}} completed successfully! , report link http://swagger.ibo.com/ibo-bff-automation/
           # Optional content type (defaults to text/plain)
