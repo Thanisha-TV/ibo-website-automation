@@ -32,6 +32,7 @@ public class base {
         if(browser.equalsIgnoreCase("Chrome")) {
             WebDriverManager.chromedriver().browserVersion("77.0.3865.40").setup();
             ChromeOptions options = new ChromeOptions();
+            options.addArguments("--window-size=1920,1080");
             options.addArguments("--start-maximized");
             options.addArguments("--enable-automation");
             options.addArguments("--no-sandbox");
