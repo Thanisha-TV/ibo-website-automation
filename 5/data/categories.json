@@ -1,0 +1,65 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az41-752', ip: '10.1.0.146', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1023-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-browser-side-navi..., --disable-gpu], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-browser-side-navi..., --disable-gpu], extensions: []}}}]",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "4e5dc8054e26e8e6",
+        "parentUid" : "bc525006549604e757a8167e50887dad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653024157020,
+          "stop" : 1653024157034,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "411eeee5220c8596",
+        "parentUid" : "bc525006549604e757a8167e50887dad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653024157493,
+          "stop" : 1653024157496,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "ca9649b745c8b968",
+        "parentUid" : "bc525006549604e757a8167e50887dad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653024157911,
+          "stop" : 1653024157911,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "41fa30513cd10241",
+        "parentUid" : "bc525006549604e757a8167e50887dad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653024158289,
+          "stop" : 1653024158290,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc525006549604e757a8167e50887dad"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
