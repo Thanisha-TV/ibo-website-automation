@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element not interactable\n  (Session info: headless chrome=101.0.4951.64)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az38-70', ip: '10.1.0.70', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1023-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e3d41a31f80fee58f8a9de1c81a9e002, clickElement {id=45e9977f-f7e4-4650-8c37-0a2b6c48b2e4}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.Pu53oP}, goog:chromeOptions: {debuggerAddress: localhost:35377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:35377/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (e3d41a31f80fee58f8a9de1c81a9e002)] -> xpath: (//span[contains(@class,'text-13px text-center text-white leading-none lg:pt-1 hidden lg:block')])[4]]\nSession ID: e3d41a31f80fee58f8a9de1c81a9e002",
+      "children" : [ {
+        "name" : "Login to Place Order Using Bank Deposit Journey",
+        "uid" : "6387cdbfe3c8f281",
+        "parentUid" : "9a3cf3a985f23c0050042992709928ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653026634381,
+          "stop" : 1653026637664,
+          "duration" : 3283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a3cf3a985f23c0050042992709928ea"
+    }, {
+      "name" : "element not interactable\n  (Session info: headless chrome=101.0.4951.64)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az38-70', ip: '10.1.0.70', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1023-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [84291456c0c46126186148351f945c20, clickElement {id=ce77471e-75b0-4bed-ab63-2212c8a8133f}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.jO0jHA}, goog:chromeOptions: {debuggerAddress: localhost:41533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:41533/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (84291456c0c46126186148351f945c20)] -> xpath: (//span[contains(@class,'text-13px text-center text-white leading-none lg:pt-1 hidden lg:block')])[4]]\nSession ID: 84291456c0c46126186148351f945c20",
+      "children" : [ {
+        "name" : "Login to Place Order Using Pay On Delivery Journey",
+        "uid" : "6e0ba5ac288cef82",
+        "parentUid" : "a45b02632d0b0eca05763afca649a8fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653026642875,
+          "stop" : 1653026646179,
+          "duration" : 3304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a45b02632d0b0eca05763afca649a8fb"
+    }, {
+      "name" : "element not interactable\n  (Session info: headless chrome=101.0.4951.64)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az38-70', ip: '10.1.0.70', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1023-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a01ff58f76946711bac6b15db06019e0, clickElement {id=3b7b5cc5-617d-4e95-bbbe-519f417d1c95}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.3DS64d}, goog:chromeOptions: {debuggerAddress: localhost:37965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:37965/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (a01ff58f76946711bac6b15db06019e0)] -> xpath: (//span[contains(@class,'text-13px text-center text-white leading-none lg:pt-1 hidden lg:block')])[4]]\nSession ID: a01ff58f76946711bac6b15db06019e0",
+      "children" : [ {
+        "name" : "Login to Place Order Using Wallet Journey",
+        "uid" : "6d33f2e80b2705cb",
+        "parentUid" : "a72624d845ac8892c8f486e6d842ab85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653026650015,
+          "stop" : 1653026653312,
+          "duration" : 3297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a72624d845ac8892c8f486e6d842ab85"
+    }, {
+      "name" : "element not interactable\n  (Session info: headless chrome=101.0.4951.64)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az38-70', ip: '10.1.0.70', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1023-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4b4dd80872d74f6d9c2a73dd964a0503, clickElement {id=08bf3b0f-d958-4ad7-9384-61901ee9e23f}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.P96Lte}, goog:chromeOptions: {debuggerAddress: localhost:46749}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:46749/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (4b4dd80872d74f6d9c2a73dd964a0503)] -> xpath: (//span[contains(@class,'text-13px text-center text-white leading-none lg:pt-1 hidden lg:block')])[4]]\nSession ID: 4b4dd80872d74f6d9c2a73dd964a0503",
+      "children" : [ {
+        "name" : "Login to Place Order Using Net Banking Journey",
+        "uid" : "373b388edd3dfe44",
+        "parentUid" : "e59c31d0b0a48dca8b9bb483b80e85bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653026656353,
+          "stop" : 1653026659662,
+          "duration" : 3309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e59c31d0b0a48dca8b9bb483b80e85bb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

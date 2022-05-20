@@ -1,0 +1,73 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Login_To_PlaceOrderUsingBankDepositJourney",
+    "children" : [ {
+      "name" : "loginToPlaceOrderJourney",
+      "uid" : "6387cdbfe3c8f281",
+      "parentUid" : "de63b682997ebed524925171ee442fbd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653026634381,
+        "stop" : 1653026637664,
+        "duration" : 3283
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "de63b682997ebed524925171ee442fbd"
+  }, {
+    "name" : "Login_To_PlaceOrderUsingPayOnDeliveryJourney",
+    "children" : [ {
+      "name" : "loginToPlaceOrderJourney",
+      "uid" : "6e0ba5ac288cef82",
+      "parentUid" : "f00679e92466750140892d3e89268ac7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653026642875,
+        "stop" : 1653026646179,
+        "duration" : 3304
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f00679e92466750140892d3e89268ac7"
+  }, {
+    "name" : "Login_To_PlaceOrderUsingWalletJourney",
+    "children" : [ {
+      "name" : "loginToPlaceOrderJourney",
+      "uid" : "6d33f2e80b2705cb",
+      "parentUid" : "ebca6d8435fbc32d32c00036fdad395e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653026650015,
+        "stop" : 1653026653312,
+        "duration" : 3297
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ebca6d8435fbc32d32c00036fdad395e"
+  }, {
+    "name" : "Login_To_PlaceOrderUsingNetBanking",
+    "children" : [ {
+      "name" : "loginToPlaceOrderJourney",
+      "uid" : "373b388edd3dfe44",
+      "parentUid" : "ec7414d4985b28e4f9bb6267e46a4f6d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653026656353,
+        "stop" : 1653026659662,
+        "duration" : 3309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ec7414d4985b28e4f9bb6267e46a4f6d"
+  } ],
+  "name" : "packages"
+}
