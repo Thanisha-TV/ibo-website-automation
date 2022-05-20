@@ -1,0 +1,41 @@
+[ {
+  "uid" : "a89623b3b5c144ac",
+  "name" : "Login to Place Order Using Bank Deposit Journey",
+  "time" : {
+    "start" : 1653032039732,
+    "stop" : 1653032162960,
+    "duration" : 123228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6682d147f38b52dd",
+  "name" : "Login to Place Order Using Net Banking Journey",
+  "time" : {
+    "start" : 1653032446460,
+    "stop" : 1653032587166,
+    "duration" : 140706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d27257e291ee0a3",
+  "name" : "Login to Place Order Using Wallet Journey",
+  "time" : {
+    "start" : 1653032295679,
+    "stop" : 1653032441394,
+    "duration" : 145715
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "18027b3bd16f9279",
+  "name" : "Login to Place Order Using Pay On Delivery Journey",
+  "time" : {
+    "start" : 1653032168446,
+    "stop" : 1653032290818,
+    "duration" : 122372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
