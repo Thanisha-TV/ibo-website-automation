@@ -9,7 +9,7 @@ on:
         required: true
       testNames:
         description: 'pageSanityTests'
-        default: 'testng-scenarios'
+        default: 'pageSanityTests'
         required: true
 
   schedule:
