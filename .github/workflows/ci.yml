@@ -4,7 +4,11 @@ on:
   workflow_dispatch:
    inputs:
       suiteXmlFile:
-        description: 'IBO Website CI/CD'
+        description: 'suite name'
+        default: 'testng-sanity'
+        required: true
+      testNames:
+        description: 'pageSanityTests'
         default: 'testng-scenarios'
         required: true
 
@@ -32,7 +36,7 @@ jobs:
 
       - name: Mvn test with no scheduler
         if: ${{ github.event_name != 'schedule' }}
-        run: mvn test -Dsurefire.suiteXmlFiles=src/main/resources/${{ github.event.inputs.suiteXmlFile }}.xml
+        run: mvn test -Dsurefire.suiteXmlFiles=src/main/resources/${{ github.event.inputs.suiteXmlFile }}.xml -DtestNames=${{ github.event.inputs.testNames }}
       
       - name: Run on schedule event
         if: ${{ github.event_name == 'schedule' }}
