@@ -1,0 +1,97 @@
+{
+  "uid" : "9dbcf297ea25a31e",
+  "name" : "LoginPage- Validate Logo on Website",
+  "fullName" : "LoginPageTest.validateLogo",
+  "historyId" : "8099b73f530957587d0d6613b643df8d",
+  "time" : {
+    "start" : 1653395410631,
+    "stop" : 1653395410685,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1653395407781,
+      "stop" : 1653395410629,
+      "duration" : 2848
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1653395410686,
+      "stop" : 1653395410791,
+      "duration" : 105
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateLogo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Sanity Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "pageSanityTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-937"
+  }, {
+    "name" : "thread",
+    "value" : "2948@fv-az83-937.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9dbcf297ea25a31e.json",
+  "parameterValues" : [ ]
+}

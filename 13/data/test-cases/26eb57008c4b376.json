@@ -1,0 +1,97 @@
+{
+  "uid" : "26eb57008c4b376",
+  "name" : "LoginPage- Validate Login Test",
+  "fullName" : "LoginPageTest.validateLoginTest",
+  "historyId" : "5d3200ec2df01e7cd8b674089896dab0",
+  "time" : {
+    "start" : 1653395385692,
+    "stop" : 1653395407521,
+    "duration" : 21829
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1653395382953,
+      "stop" : 1653395385690,
+      "duration" : 2737
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1653395407525,
+      "stop" : 1653395407780,
+      "duration" : 255
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateLoginTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Sanity Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "pageSanityTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-937"
+  }, {
+    "name" : "thread",
+    "value" : "2948@fv-az83-937.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26eb57008c4b376.json",
+  "parameterValues" : [ ]
+}

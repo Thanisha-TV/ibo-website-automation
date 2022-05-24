@@ -1,0 +1,261 @@
+[ {
+  "uid" : "c760f13cb6d13c6b",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1653395648512,
+    "stop" : 1653395648512,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "26eb57008c4b376",
+  "name" : "LoginPage- Validate Login Test",
+  "time" : {
+    "start" : 1653395385692,
+    "stop" : 1653395407521,
+    "duration" : 21829
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3e9ef3da31c63ee",
+  "name" : "LoginPage- Validate Display of Shop By Category section",
+  "time" : {
+    "start" : 1653395377676,
+    "stop" : 1653395377819,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cefe36d6a793216c",
+  "name" : "AddressPage- Validate Navigation from Address tab to Payment tab",
+  "time" : {
+    "start" : 1653395696156,
+    "stop" : 1653395696157,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "b66e4da9bedbabce",
+  "name" : "PaymentPage- Validate Navigation from Payment Page to Confirmation Page",
+  "time" : {
+    "start" : 1653395744042,
+    "stop" : 1653395744042,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "be4854589e86825",
+  "name" : "CartPage- Validate Total Price in Cart Page",
+  "time" : {
+    "start" : 1653395648615,
+    "stop" : 1653395648616,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "8330a99116f54321",
+  "name" : "Validate Add Money To Wallet",
+  "time" : {
+    "start" : 1653395785912,
+    "stop" : 1653395794126,
+    "duration" : 8214
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "66526f8f2987d472",
+  "name" : "CartPage- Validate navigation from Cart tab to address tab",
+  "time" : {
+    "start" : 1653395648606,
+    "stop" : 1653395648606,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "113616e0c2575dfd",
+  "name" : "CartPage- Validate Delete item in Cart Page",
+  "time" : {
+    "start" : 1653395648525,
+    "stop" : 1653395648528,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "3cefe2303eeced44",
+  "name" : "HomePage- Validate Navigation from Home page to Profile Page",
+  "time" : {
+    "start" : 1653395470194,
+    "stop" : 1653395480340,
+    "duration" : 10146
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "1f6451ed5c533e5e",
+  "name" : "PdpPage- Validate Price Display",
+  "time" : {
+    "start" : 1653395601205,
+    "stop" : 1653395601206,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "ebe331a132592d27",
+  "name" : "PdpPage- Validate Add to Cart",
+  "time" : {
+    "start" : 1653395601189,
+    "stop" : 1653395601189,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "49cbf86d648c18c1",
+  "name" : "LoginPage- Validate Display of Top Brands section",
+  "time" : {
+    "start" : 1653395382737,
+    "stop" : 1653395382813,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7f5f51d5bd100f2f",
+  "name" : "ConfirmationPage- Validate Navigation from Confirmation Page to Home Page",
+  "time" : {
+    "start" : 1653395886555,
+    "stop" : 1653395886555,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "be416422eb346dcc",
+  "name" : "HomePage- Validate home Page title",
+  "time" : {
+    "start" : 1653395553476,
+    "stop" : 1653395553483,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffcd068401dff064",
+  "name" : "HomePage- Validate Search Product Scenario",
+  "time" : {
+    "start" : 1653395504533,
+    "stop" : 1653395528294,
+    "duration" : 23761
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "db3c32a2502ea8a8",
+  "name" : "PaymentPage- Validate payment Option",
+  "time" : {
+    "start" : 1653395744045,
+    "stop" : 1653395744045,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "93f26bce76b446c5",
+  "name" : "HomePage- Validate change Postcode",
+  "time" : {
+    "start" : 1653395435245,
+    "stop" : 1653395445524,
+    "duration" : 10279
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9dbcf297ea25a31e",
+  "name" : "LoginPage- Validate Logo on Website",
+  "time" : {
+    "start" : 1653395410631,
+    "stop" : 1653395410685,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2f5ab1ee2d8e1c8d",
+  "name" : "PdpPage- Validate Update Quantity",
+  "time" : {
+    "start" : 1653395601209,
+    "stop" : 1653395601209,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "b00993954ff4caf1",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1653395744022,
+    "stop" : 1653395744023,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9d87dc03f80b4484",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1653395886553,
+    "stop" : 1653395886553,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "545ccbe916ec4582",
+  "name" : "OrdersPage- Validate Navigation from Home Page To Orders Page",
+  "time" : {
+    "start" : 1653395828282,
+    "stop" : 1653395838379,
+    "duration" : 10097
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7c5c2dcb4511e112",
+  "name" : "ProfilePage- Validate Username in Profile Page",
+  "time" : {
+    "start" : 1653395779329,
+    "stop" : 1653395779366,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "985bd8fa10cac8b4",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1653395696145,
+    "stop" : 1653395696146,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e94e4143a8254d18",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1653395601181,
+    "stop" : 1653395601182,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

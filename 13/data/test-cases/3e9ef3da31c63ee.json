@@ -1,0 +1,97 @@
+{
+  "uid" : "3e9ef3da31c63ee",
+  "name" : "LoginPage- Validate Display of Shop By Category section",
+  "fullName" : "LoginPageTest.validateDisplayOfShopByCategorySection",
+  "historyId" : "b65b0452172e2c43490da94ae092eeaa",
+  "time" : {
+    "start" : 1653395377676,
+    "stop" : 1653395377819,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1653395358719,
+      "stop" : 1653395377523,
+      "duration" : 18804
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1653395377842,
+      "stop" : 1653395377994,
+      "duration" : 152
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateDisplayOfShopByCategorySection"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Sanity Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "pageSanityTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-937"
+  }, {
+    "name" : "thread",
+    "value" : "2948@fv-az83-937.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e9ef3da31c63ee.json",
+  "parameterValues" : [ ]
+}
