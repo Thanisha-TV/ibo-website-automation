@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 50,
+  "reportUrl" : "https://Thanisha-TV.github.io/ibo-website-automation/50/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 49,
   "reportUrl" : "https://Thanisha-TV.github.io/ibo-website-automation/49/",
   "reportName" : "Allure Report with history",
@@ -145,14 +153,6 @@
 }, {
   "buildOrder" : 31,
   "reportUrl" : "https://Thanisha-TV.github.io/ibo-website-automation/31/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 1,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 30,
-  "reportUrl" : "https://Thanisha-TV.github.io/ibo-website-automation/30/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 1,
