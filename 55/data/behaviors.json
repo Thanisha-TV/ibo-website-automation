@@ -2,7 +2,7 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Validate Username in Profile Page",
-    "uid" : "d94d98998adb27b2",
+    "uid" : "bc79dc1f74b44501",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
