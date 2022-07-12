@@ -8,7 +8,7 @@
         "name" : "ProfilePageTest",
         "children" : [ {
           "name" : "Validate Username in Profile Page",
-          "uid" : "880ec16e0286453f",
+          "uid" : "ee1ebb74fc0b371c",
           "parentUid" : "d894aaaa4d83f903da7e6aa5cf950198",
           "status" : "passed",
           "time" : {
