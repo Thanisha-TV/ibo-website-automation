@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Thanisha-TV.github.io/ibo-website-automation",
+  "buildOrder" : 65,
+  "buildName" : "GitHub Actions Run #2674906745",
+  "buildUrl" : "https://github.com/Thanisha-TV/ibo-website-automation/actions/runs/2674906745",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Thanisha-TV.github.io/ibo-website-automation/65/"
+} ]
