@@ -138,11 +138,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 90,
+      "passed" : 91,
       "unknown" : 0,
-      "total" : 90
+      "total" : 91
     },
     "items" : [ {
+      "uid" : "8e1ba8c36fe4c771",
+      "reportUrl" : "https://Thanisha-TV.github.io/ibo-website-automation/97//#testresult/8e1ba8c36fe4c771",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648638075975,
+        "stop" : 1648638076017,
+        "duration" : 42
+      }
+    }, {
       "uid" : "dda9ca7453091832",
       "reportUrl" : "https://Thanisha-TV.github.io/ibo-website-automation/96//#testresult/dda9ca7453091832",
       "status" : "passed",
@@ -307,15 +316,6 @@
     }, {
       "uid" : "fd15fb13fa82dc0a",
       "reportUrl" : "https://Thanisha-TV.github.io/ibo-website-automation/78//#testresult/fd15fb13fa82dc0a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1648638075975,
-        "stop" : 1648638076017,
-        "duration" : 42
-      }
-    }, {
-      "uid" : "fffba513298a719b",
-      "reportUrl" : "https://Thanisha-TV.github.io/ibo-website-automation/77//#testresult/fffba513298a719b",
       "status" : "passed",
       "time" : {
         "start" : 1648638075975,
