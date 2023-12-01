@@ -1,11 +1,11 @@
 [ {
-  "uid" : "69f5b374d0cd2a70",
-  "name" : "Validate Username in Profile Page",
+  "uid" : "207154e04cd57481",
+  "name" : "HomePage- Validate change Postcode",
   "time" : {
-    "start" : 1648637037603,
-    "stop" : 1648637037660,
-    "duration" : 57
+    "start" : 1653470599243,
+    "stop" : 1653470609558,
+    "duration" : 10315
   },
   "status" : "passed",
-  "severity" : "minor"
+  "severity" : "critical"
 } ]

@@ -50,7 +50,7 @@ public class AllureListener implements ITestListener {
     public void onFinish(ITestContext context) {
         try {
             Thread.sleep(10000);
-            Process process = Runtime.getRuntime().exec("allure serve /Users/thanisha/IdeaProjects/ibo-website-automation/allure-results");
+            Process process = Runtime.getRuntime().exec("allure serve allure-results");
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }

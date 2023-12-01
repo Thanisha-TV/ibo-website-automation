@@ -40,7 +40,7 @@ public class base {
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--disable-browser-side-navigation");
             options.addArguments("--disable-gpu");
-            options.addArguments("--headless");
+            //options.addArguments("--headless");
             driver = new ChromeDriver(options);
         }
         if (browser.equalsIgnoreCase("Firefox"))

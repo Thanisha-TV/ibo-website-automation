@@ -2,14 +2,14 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Validate Username in Profile Page",
-    "uid" : "69f5b374d0cd2a70",
+    "name" : "HomePage- Validate change Postcode",
+    "uid" : "207154e04cd57481",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648637037603,
-      "stop" : 1648637037660,
-      "duration" : 57
+      "start" : 1653470599243,
+      "stop" : 1653470609558,
+      "duration" : 10315
     },
     "flaky" : false,
     "newFailed" : false,

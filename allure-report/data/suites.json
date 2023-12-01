@@ -2,20 +2,20 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Default Suite",
+    "name" : "Sanity Automation Suite",
     "children" : [ {
-      "name" : "ibo-website-automation",
+      "name" : "HomePageTest",
       "children" : [ {
-        "name" : "ProfilePageTest",
+        "name" : "HomePageTest",
         "children" : [ {
-          "name" : "Validate Username in Profile Page",
-          "uid" : "69f5b374d0cd2a70",
-          "parentUid" : "d894aaaa4d83f903da7e6aa5cf950198",
+          "name" : "HomePage- Validate change Postcode",
+          "uid" : "207154e04cd57481",
+          "parentUid" : "437777f652854280ca77f50adde24cfd",
           "status" : "passed",
           "time" : {
-            "start" : 1648637037603,
-            "stop" : 1648637037660,
-            "duration" : 57
+            "start" : 1653470599243,
+            "stop" : 1653470609558,
+            "duration" : 10315
           },
           "flaky" : false,
           "newFailed" : false,
@@ -25,10 +25,10 @@
           "retriesStatusChange" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "d894aaaa4d83f903da7e6aa5cf950198"
+        "uid" : "437777f652854280ca77f50adde24cfd"
       } ],
-      "uid" : "cb75b393c2ee52dc92270285cdd30e47"
+      "uid" : "9fc7b064a4772a0fa7bf336f32921685"
     } ],
-    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+    "uid" : "3b517a2f9a2575fd0c93ac0753df9ed0"
   } ]
 }

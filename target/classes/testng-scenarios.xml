@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Scenarios Automation Suite">
+    <test name="userJourneysSanity">
+        <classes>
+            <class name="Login_To_PlaceOrderUsingBankDepositJourney"/>
+            <class name="Login_To_PlaceOrderUsingPayOnDeliveryJourney"/>
+            <class name="Login_To_PlaceOrderUsingWalletJourney"/>
+            <class name="Login_To_PlaceOrderUsingNetBanking"/>
+        </classes>
+    </test>
+</suite>

@@ -1,301 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,569.13" tests="27" errors="0" skipped="2" failures="8">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="215.349" tests="4" errors="0" skipped="0" failures="4">
   <properties>
-    <property name="java.specification.version" value="18"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.5/libexec/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.vendor" value="Homebrew"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.5/libexec/conf"/>
-    <property name="java.vm.specification.version" value="18"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="GB"/>
-    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/18/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.5/libexec"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/thanisha"/>
-    <property name="user.language" value="en"/>
-    <property name="sun.stderr.encoding" value="UTF-8"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2022-03-22"/>
-    <property name="java.home" value="/usr/local/Cellar/openjdk/18/libexec/openjdk.jdk/Contents/Home"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="sun.stdout.encoding" value="UTF-8"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="apple.awt.application.name" value="Launcher"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="18+0"/>
-    <property name="user.name" value="thanisha"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="12.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Homebrew"/>
-    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="java.io.tmpdir" value="/var/folders/vc/qv9ymbv5245ctmzn89wp9lnc0000gn/T/"/>
-    <property name="java.version" value="18"/>
-    <property name="user.dir" value="/Users/thanisha/IdeaProjects/ibo-website-automation"/>
-    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.version" value="18.0.1+0"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/18.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/Users/thanisha/IdeaProjects/ibo-website-automation"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/thanisha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Homebrew"/>
-    <property name="java.vm.version" value="18+0"/>
+    <property name="user.dir" value="/Users/thanisha/IdeaProjects/ibo-website-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="18.0.1+0"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/vc/qv9ymbv5245ctmzn89wp9lnc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="suiteXmlFile" value="src/main/resources/testng-scenarios.xml"/>
     <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.5/libexec/bin/m2.conf"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.5/libexec/lib/jansi-native"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/thanisha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.5/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.3.1"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.5/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/thanisha"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="thanisha"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.5/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -DsuiteXmlFile=src/main/resources/testng-scenarios.xml"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/18.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.5/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="validateDeleteProduct" classname="CartPageTest" time="10.145"/>
-  <testcase name="validateNavigateToAddressPage" classname="CartPageTest" time="10.064"/>
-  <testcase name="validateTotalPriceCheck" classname="CartPageTest" time="0.001"/>
-  <testcase name="validateNavigateToConfirmationPage" classname="PaymentPageTest" time="3.345">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#wallet&quot;}&#10;  (Session info: chrome=100.0.4896.88)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;2406:7400:61:b99d:0:0:0:1000%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6be854a716af1c5bc4fd52501380daa8, findElement {using=id, value=wallet}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49334/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6be854a716af1c5bc4fd52501380daa8" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
-  (Session info: chrome=100.0.4896.88)
+  <testcase name="loginToPlaceOrderJourney" classname="Login_To_PlaceOrderUsingBankDepositJourney" time="44.896">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Orient Bell Equilateral 1 Ceramic Tile&apos;]&quot;}&#10;  (Session info: chrome=101.0.4951.64)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1005:becb:ff95:bc05%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [493c7bc3f870af47374a3befb7ed2080, findElement {using=xpath, value=//span[text()=&apos;Orient Bell Equilateral 1 Ceramic Tile&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:50323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50323/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 493c7bc3f870af47374a3befb7ed2080" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Orient Bell Equilateral 1 Ceramic Tile']"}
+  (Session info: chrome=101.0.4951.64)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: 'fe80:0:0:0:1005:becb:ff95:bc05%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6be854a716af1c5bc4fd52501380daa8, findElement {using=id, value=wallet}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49334/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6be854a716af1c5bc4fd52501380daa8
-	at PaymentPageTest.validateNavigateToConfirmationPage(PaymentPageTest.java:39)
-</failure>
-    <system-out><![CDATA[Screenshot Captured for TestcasevalidateNavigateToConfirmationPage
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 60043
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 13, 2022 3:31:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Apr 13, 2022 3:31:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 96
-Apr 13, 2022 3:31:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 100 of 96
-]]></system-err>
-  </testcase>
-  <testcase name="validatePaymentOption" classname="PaymentPageTest" time="3.325">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#wallet&quot;}&#10;  (Session info: chrome=100.0.4896.88)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;2406:7400:61:b99d:0:0:0:1000%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [4d34da0408e7bc463631d6b94da240d5, findElement {using=id, value=wallet}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49366/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4d34da0408e7bc463631d6b94da240d5" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
-  (Session info: chrome=100.0.4896.88)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4d34da0408e7bc463631d6b94da240d5, findElement {using=id, value=wallet}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49366/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4d34da0408e7bc463631d6b94da240d5
-	at PaymentPageTest.validatePaymentOption(PaymentPageTest.java:34)
-</failure>
-    <system-out><![CDATA[Screenshot Captured for TestcasevalidatePaymentOption
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 63752
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 13, 2022 3:33:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Apr 13, 2022 3:33:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 96
-Apr 13, 2022 3:33:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 100 of 96
-]]></system-err>
-  </testcase>
-  <testcase name="addMoneyToWallet" classname="CommandCenterTest" time="8.288">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;basic_username&apos;]&quot;}&#10;  (Session info: chrome=100.0.4896.88)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;2406:7400:61:b99d:0:0:0:1000%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0bb93eb373479306e6ef7101aa9ab4c5, findElement {using=xpath, value=//input[@id=&apos;basic_username&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49393/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0bb93eb373479306e6ef7101aa9ab4c5" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='basic_username']"}
-  (Session info: chrome=100.0.4896.88)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0bb93eb373479306e6ef7101aa9ab4c5, findElement {using=xpath, value=//input[@id='basic_username']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49393/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0bb93eb373479306e6ef7101aa9ab4c5
-	at CommandCenterTest.addMoneyToWallet(CommandCenterTest.java:25)
-</failure>
-    <system-out><![CDATA[Screenshot Captured for TestcaseaddMoneyToWallet
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 58420
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 13, 2022 3:35:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Apr 13, 2022 3:35:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 96
-Apr 13, 2022 3:35:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 100 of 96
-]]></system-err>
-  </testcase>
-  <testcase name="validateAddItemToCart" classname="PdpPageTest" time="20.177"/>
-  <testcase name="validatePriceDisplay" classname="PdpPageTest" time="0.048"/>
-  <testcase name="validateUpdateQuantity" classname="PdpPageTest" time="10.136"/>
-  <testcase name="loginToPlaceOrderJourney" classname="Login_To_PlaceOrderUsingBankDepositJourney" time="54.613">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Add to cart&apos;]&quot;}&#10;  (Session info: chrome=100.0.4896.88)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;2406:7400:61:b99d:0:0:0:1000%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [4c76279f276df1ca3243442fa8554b80, findElement {using=xpath, value=//span[text()=&apos;Add to cart&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49497/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4c76279f276df1ca3243442fa8554b80" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Add to cart']"}
-  (Session info: chrome=100.0.4896.88)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c76279f276df1ca3243442fa8554b80, findElement {using=xpath, value=//span[text()='Add to cart']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49497/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c76279f276df1ca3243442fa8554b80
-	at Login_To_PlaceOrderUsingBankDepositJourney.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingBankDepositJourney.java:31)
+Command: [493c7bc3f870af47374a3befb7ed2080, findElement {using=xpath, value=//span[text()='Orient Bell Equilateral 1 Ceramic Tile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:50323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50323/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 493c7bc3f870af47374a3befb7ed2080
+	at Login_To_PlaceOrderUsingBankDepositJourney.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingBankDepositJourney.java:30)
 </failure>
     <system-out><![CDATA[Screenshot Captured for TestcaseloginToPlaceOrderJourney
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 56090
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 62359
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 13, 2022 3:38:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 25, 2022 3:41:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Apr 13, 2022 3:38:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 96
-Apr 13, 2022 3:38:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 100 of 96
+May 25, 2022 3:41:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: a no-op implementation
+May 25, 2022 3:41:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 101.
+May 25, 2022 3:41:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="validatePlacedOrderDetails" classname="OrdersPageTest" time="10.103"/>
-  <testcase name="loginToPlaceOrderJourney" classname="Login_To_PlaceOrderUsingWalletJourney" time="94.658">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#wallet&quot;}&#10;  (Session info: chrome=100.0.4896.88)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;2406:7400:61:b99d:0:0:0:1000%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2bc2635cc838dfac93a54386410e815d, findElement {using=id, value=wallet}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49549/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2bc2635cc838dfac93a54386410e815d" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
-  (Session info: chrome=100.0.4896.88)
+  <testcase name="loginToPlaceOrderJourney" classname="Login_To_PlaceOrderUsingPayOnDeliveryJourney" time="45.022">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Orient Bell Equilateral 1 Ceramic Tile&apos;]&quot;}&#10;  (Session info: chrome=101.0.4951.64)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1005:becb:ff95:bc05%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9eff325432544218d0389a8e91cc3e0c, findElement {using=xpath, value=//span[text()=&apos;Orient Bell Equilateral 1 Ceramic Tile&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:50355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50355/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9eff325432544218d0389a8e91cc3e0c" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Orient Bell Equilateral 1 Ceramic Tile']"}
+  (Session info: chrome=101.0.4951.64)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: 'fe80:0:0:0:1005:becb:ff95:bc05%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2bc2635cc838dfac93a54386410e815d, findElement {using=id, value=wallet}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49549/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2bc2635cc838dfac93a54386410e815d
-	at Login_To_PlaceOrderUsingWalletJourney.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingWalletJourney.java:35)
+Command: [9eff325432544218d0389a8e91cc3e0c, findElement {using=xpath, value=//span[text()='Orient Bell Equilateral 1 Ceramic Tile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:50355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50355/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9eff325432544218d0389a8e91cc3e0c
+	at Login_To_PlaceOrderUsingPayOnDeliveryJourney.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingPayOnDeliveryJourney.java:30)
 </failure>
     <system-out><![CDATA[Screenshot Captured for TestcaseloginToPlaceOrderJourney
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 51015
+    <system-err><![CDATA[May 25, 2022 3:42:18 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 58173
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 13, 2022 3:41:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 25, 2022 3:42:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Apr 13, 2022 3:41:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 96
-Apr 13, 2022 3:41:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 100 of 96
+May 25, 2022 3:42:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: a no-op implementation
+May 25, 2022 3:42:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 101.
+May 25, 2022 3:42:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="setUp" classname="ConfirmationPageTest" time="194.831">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#wallet&quot;}&#10;  (Session info: chrome=100.0.4896.88)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;2406:7400:61:b99d:0:0:0:1000%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [841dd5a4987eb50804fdb32426cc20dc, findElement {using=id, value=wallet}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49582/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 841dd5a4987eb50804fdb32426cc20dc" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
-  (Session info: chrome=100.0.4896.88)
+  <testcase name="loginToPlaceOrderJourney" classname="Login_To_PlaceOrderUsingWalletJourney" time="44.885">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Orient Bell Equilateral 1 Ceramic Tile&apos;]&quot;}&#10;  (Session info: chrome=101.0.4951.64)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1005:becb:ff95:bc05%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6ea8c01247bcd7ce503d8e600010145c, findElement {using=xpath, value=//span[text()=&apos;Orient Bell Equilateral 1 Ceramic Tile&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:50388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50388/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6ea8c01247bcd7ce503d8e600010145c" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Orient Bell Equilateral 1 Ceramic Tile']"}
+  (Session info: chrome=101.0.4951.64)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: 'fe80:0:0:0:1005:becb:ff95:bc05%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [841dd5a4987eb50804fdb32426cc20dc, findElement {using=id, value=wallet}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49582/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 841dd5a4987eb50804fdb32426cc20dc
-	at ConfirmationPageTest.setUp(ConfirmationPageTest.java:31)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 58638
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 13, 2022 3:42:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Apr 13, 2022 3:42:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 96
-Apr 13, 2022 3:42:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 100 of 96
-]]></system-err>
-  </testcase>
-  <testcase name="validateNavigateToHomePage" classname="ConfirmationPageTest" time="0">
-    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#wallet&quot;}&#10;  (Session info: chrome=100.0.4896.88)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;2406:7400:61:b99d:0:0:0:1000%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [841dd5a4987eb50804fdb32426cc20dc, findElement {using=id, value=wallet}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49582/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 841dd5a4987eb50804fdb32426cc20dc"/>
-  </testcase>
-  <testcase name="tearDown" classname="ConfirmationPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="loginToPlaceOrderJourney" classname="Login_To_PlaceOrderUsingPayOnDeliveryJourney" time="94.854">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#wallet&quot;}&#10;  (Session info: chrome=100.0.4896.88)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;2406:7400:61:b99d:0:0:0:1000%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [942db4b796d97531d27100efd5a0d1a2, findElement {using=id, value=wallet}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49607/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 942db4b796d97531d27100efd5a0d1a2" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
-  (Session info: chrome=100.0.4896.88)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [942db4b796d97531d27100efd5a0d1a2, findElement {using=id, value=wallet}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49607/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 942db4b796d97531d27100efd5a0d1a2
-	at Login_To_PlaceOrderUsingPayOnDeliveryJourney.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingPayOnDeliveryJourney.java:34)
+Command: [6ea8c01247bcd7ce503d8e600010145c, findElement {using=xpath, value=//span[text()='Orient Bell Equilateral 1 Ceramic Tile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:50388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50388/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ea8c01247bcd7ce503d8e600010145c
+	at Login_To_PlaceOrderUsingWalletJourney.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingWalletJourney.java:31)
 </failure>
     <system-out><![CDATA[Screenshot Captured for TestcaseloginToPlaceOrderJourney
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 61364
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 51125
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 13, 2022 3:44:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 25, 2022 3:43:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Apr 13, 2022 3:44:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 96
-Apr 13, 2022 3:44:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 100 of 96
+May 25, 2022 3:43:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: a no-op implementation
+May 25, 2022 3:43:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 101.
+May 25, 2022 3:43:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="validateUsernameCheck" classname="ProfilePageTest" time="0.039"/>
-  <testcase name="validateChangePostcode" classname="HomePageTest" time="10.201"/>
-  <testcase name="validateNavigateToProfilePage" classname="HomePageTest" time="10.118"/>
-  <testcase name="validateSearchProduct" classname="HomePageTest" time="30.493"/>
-  <testcase name="validateHomePageTitle" classname="HomePageTest" time="0.008"/>
-  <testcase name="validateNavigateToPaymentPage" classname="AddressPageTest" time="10.078"/>
-  <testcase name="loginToPlaceOrderJourney" classname="Login_To_PlaceOrderUsingNetBanking" time="94.833">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#wallet&quot;}&#10;  (Session info: chrome=100.0.4896.88)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;2406:7400:61:b99d:0:0:0:1000%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [36a39ed64f61bd1b2240a04d39dcce12, findElement {using=id, value=wallet}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49790/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 36a39ed64f61bd1b2240a04d39dcce12" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#wallet"}
-  (Session info: chrome=100.0.4896.88)
+  <testcase name="loginToPlaceOrderJourney" classname="Login_To_PlaceOrderUsingNetBanking" time="44.889">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Orient Bell Equilateral 1 Ceramic Tile&apos;]&quot;}&#10;  (Session info: chrome=101.0.4951.64)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;&#10;System info: host: &apos;Thanishas-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1005:becb:ff95:bc05%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.3.1&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8a1aed10a32206b0e896eb7ed0f349fe, findElement {using=xpath, value=//span[text()=&apos;Orient Bell Equilateral 1 Ceramic Tile&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:50419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50419/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8a1aed10a32206b0e896eb7ed0f349fe" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Orient Bell Equilateral 1 Ceramic Tile']"}
+  (Session info: chrome=101.0.4951.64)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'Thanishas-MacBook-Pro.local', ip: '2406:7400:61:b99d:0:0:0:1000%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18'
+System info: host: 'Thanishas-MacBook-Pro.local', ip: 'fe80:0:0:0:1005:becb:ff95:bc05%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [36a39ed64f61bd1b2240a04d39dcce12, findElement {using=id, value=wallet}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:49790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49790/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 36a39ed64f61bd1b2240a04d39dcce12
-	at Login_To_PlaceOrderUsingNetBanking.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingNetBanking.java:36)
+Command: [8a1aed10a32206b0e896eb7ed0f349fe, findElement {using=xpath, value=//span[text()='Orient Bell Equilateral 1 Ceramic Tile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/vc/qv9ymbv5245...}, goog:chromeOptions: {debuggerAddress: localhost:50419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50419/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a1aed10a32206b0e896eb7ed0f349fe
+	at Login_To_PlaceOrderUsingNetBanking.loginToPlaceOrderJourney(Login_To_PlaceOrderUsingNetBanking.java:32)
 </failure>
     <system-out><![CDATA[Screenshot Captured for TestcaseloginToPlaceOrderJourney
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 62614
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 56245
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 13, 2022 3:51:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 25, 2022 3:44:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Apr 13, 2022 3:51:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 96
-Apr 13, 2022 3:51:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 100 of 96
+May 25, 2022 3:44:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: a no-op implementation
+May 25, 2022 3:44:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 101.
+May 25, 2022 3:44:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="validateDisplayOfShopByCategorySection" classname="LoginPageTest" time="0.065"/>
-  <testcase name="validateDisplayOfTopBrandsSection" classname="LoginPageTest" time="0.058"/>
-  <testcase name="validateLoginTest" classname="LoginPageTest" time="20.661"/>
-  <testcase name="validateLogo" classname="LoginPageTest" time="0.048"/>
 </testsuite>
